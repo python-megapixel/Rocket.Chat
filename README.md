@@ -26,7 +26,7 @@
    * [IndieHosters](#indiehosters)
    * [Ubuntu 16.04](#ubuntu-1604)
    * [Cloudron.io](#cloudronio)
-   * [Heroku](#heroku)
+   * [Heroku (broken)](#heroku)
    * [Helm Kubernetes](#helm-kubernetes)
   * [Scalingo](#scalingo)
   * [Sloppy.io](#sloppyio)
@@ -142,9 +142,8 @@ Install Rocket.Chat on [Cloudron](https://cloudron.io) Smartserver:
 
 [![Install](https://cloudron.io/img/button.svg)](https://cloudron.io/button.html?app=chat.rocket.cloudronapp)
 
-## Heroku
-Host your own Rocket.Chat server for **FREE** with [One-Click Deploy](https://heroku.com/deploy).
-
+## Heroku (broken)
+Unfortunately, **one-click deployment to Heroku does not currently work** due to the discontinuation of the mongolab addon (see [issue #18855](https://github.com/RocketChat/Rocket.Chat/issues/18855)). For now, you will have to deploy elsewhere.
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
 
 ## Helm Kubernetes
